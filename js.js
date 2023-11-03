@@ -17,11 +17,11 @@ btn.onclick = () => {
     {
         click = false;
         btn.innerHTML = "on";
-        document.querySelector("img").src = "./img/on.jpg";
+        document.querySelector("img").src = "./img/off.jpg";
     } 
     else 
     {
-        document.querySelector("img").src = "./img/off.jpg";
+        document.querySelector("img").src = "./img/on.jpg";
         btn.innerHTML = "off";
         click = true;
     }
